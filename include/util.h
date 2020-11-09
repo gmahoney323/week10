@@ -1,6 +1,6 @@
 /**
 * @file util.h
-* @brief  Week 10, C++ Review and Warmup from CSI140
+* @brief  Week 10, C++ Review and Warmup from CSI230
 *
 * @author Grant Mahoney
 * @assignment Lecture 10.1

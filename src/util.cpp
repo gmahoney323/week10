@@ -1,3 +1,14 @@
+/**
+* @file util.cpp
+* @brief  Week 10, C++ Review and Warmup from CSI230
+*
+* @author Grant Mahoney
+* @assignment Lecture 10.1
+* @date 11/8/2020
+* @credits
+* 
+*/
+
 #include "util.h"
 #include <iostream>
 
