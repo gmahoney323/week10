@@ -25,6 +25,6 @@ double sum(vector<double> input);
 double avg(vector<double> input);
 double low(vector<double> input);
 
-string camelCase(string input);
+string camelCase(string &input);
 
 #endif

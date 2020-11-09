@@ -44,7 +44,7 @@ double low(vector<double> input)
 }
 
 //RETURNS A STRING THAT HAS BEEN CONVERTED INTO "CAMEL CASE"
-string camelCase(string input)
+string camelCase(string &input)
 {
     string converted = "";
     const char * SPACE = " ";
