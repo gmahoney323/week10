@@ -16,7 +16,6 @@
 string randomElement(vector<string> input)
 {
     srand (time(NULL));
-    //cout << rand()%input.size() << endl;
     return input[rand()%input.size()];
 }
 

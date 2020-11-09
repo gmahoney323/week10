@@ -24,6 +24,7 @@ int main()
     coolVector.push_back("Durian");
     coolVector.push_back("Eggplant");
 
+    cout << "calling randomElement" << endl;
     cout << randomElement(coolVector) << endl;
 
     vector <double> anotherVector;
@@ -33,13 +34,22 @@ int main()
     anotherVector.push_back(9.6);
     anotherVector.push_back(3.4);
 
-    cout << sum(anotherVector) << endl;
-    cout << avg(anotherVector) << endl;
-    cout << low(anotherVector) << endl;
+    cout << "dumping vector: " << endl;
+    for(double d : anotherVector)
+    {
+        cout << d << " ";
+    }
+    cout << endl;
+
+
+    cout << "sum: " << sum(anotherVector) << endl;
+    cout << "avg: " << avg(anotherVector) << endl;
+    cout << "lowest: " << low(anotherVector) << endl;
 
     string thisStatementIsFalse = "I love Visual Studio Code!";
 
-    cout << camelCase(thisStatementIsFalse);
+    cout << "calling camelCase with: " << thisStatementIsFalse << endl;
+    cout << "Message after camelCase: " << camelCase(thisStatementIsFalse);
 
     return EXIT_SUCCESS;
 }
